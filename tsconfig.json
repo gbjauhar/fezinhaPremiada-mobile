@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["jest"],
+    "paths": {
+      "@screens/*": ["./src/screens/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@context/*": ["./src/context/*"],
+      "@types/*": ["./src/@types/*"],
+      "@validators/*": ["./src/validators/*"],
+      "@store/*": ["./src/store/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@theme": ["./src/theme/index.ts"],
+      "@env": [".env.json"],
+    },
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+  } 
+}

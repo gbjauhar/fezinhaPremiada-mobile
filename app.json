@@ -1,0 +1,20 @@
+{
+  "name": "Fezinha",
+  "displayName": "Fezinha",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "69973372-e678-4d26-805a-c434c0b2f860"
+      }
+    },
+    "runtimeVersion": "1.0.2",
+    "updates": {
+      "url": "https://u.expo.dev/69973372-e678-4d26-805a-c434c0b2f860"
+    },
+    "android": {},
+    "ios": {
+      "jsEngine": "jsc"
+    },
+    "jsEngine": "jsc"
+  }
+}

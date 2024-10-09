@@ -1,0 +1,38 @@
+export default {
+  colors: {
+    background: '#1A2C38',
+    buttonTitle: '#1A2C38',
+    buttonBackground: '#FFCE36',
+    buttonText: '#2D3142',
+    link: '#1EB26E',
+    title: '#ffce36',
+    icons: '#1EB26E',
+    green: '#1EB26E',
+    subtitle: '#ffffff',
+    dozensBorder: '#E5C87D',
+    dozens: {
+      initial: '#F2CF63',
+      final: '#593B02',
+    },
+    white: '#ffffff',
+    cardBackground: '#162630',
+    cardBorder: '#243C4D',
+    input: '#FFFFFF',
+    inputBorder: '#E7E5FF',
+    titleDark: '#2D3142',
+    placeholder: '#8690B5',
+    grey: '#8690B5',
+    status: {
+      danger: '#E83F5B',
+      warning: '#FD951F',
+      success: '#04D361',
+      required: '#F24C27',
+    },
+  },
+  fontFamily: {
+    bold: 'Nunito_700Bold',
+    semiBold: 'Nunito_600SemiBold',
+    medium: 'Nunito_500Medium',
+    regular: 'Nunito_400Regular',
+  },
+};
